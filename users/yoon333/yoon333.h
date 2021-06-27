@@ -30,19 +30,25 @@ enum custom_layer {
 #define ______________COLEMAK_MOD_DH_R2____________       KC_M,         RCTL_T(KC_N), RSFT_T(KC_E), RALT_T(KC_I), RGUI_T(KC_O)   
 #define ______________COLEMAK_MOD_DH_R3____________       KC_K,         KC_H,         KC_COMM,      KC_DOT,       KC_SLASH
 
-#define __________________ALPHA_L4_________________       LT(_NAV, KC_ESC), LT(_NUMBER, KC_TAB), KC_SPC
-#define __________________ALPHA_R4_________________       KC_BSPC,          LT(_SYMBOL, KC_ENT), LT(_NAV, KC_DEL)
+//#define __________________ALPHA_L4_________________       LT(_NAV, KC_ESC), LT(_NUMBER, KC_TAB), KC_SPC
+//#define __________________ALPHA_R4_________________       KC_BSPC,          LT(_SYMBOL, KC_ENT), LT(_NAV, KC_DEL)
+//#define __________________ALPHA_L4_________________       KC_ESC,           LT(_NUMBER, KC_TAB),  LT(_NAV, KC_SPC)
+//#define __________________ALPHA_R4_________________       LT(_NAV, KC_ENT), LT(_SYMBOL, KC_BSPC), KC_DEL
+#define __________________ALPHA_L4_________________       KC_ESC,           LT(_NUMBER, KC_TAB),  LT(_NAV, KC_SPC)
+#define __________________ALPHA_R4_________________       LT(_NAV, KC_ENT), LT(_SYMBOL, KC_DEL), KC_BSPC
 
-#define ___________________NAV_L1__________________       KC_NO,        KC_INS,       KC_PGUP,      KC_DEL,       KC_NO
-#define ___________________NAV_L2__________________       KC_NO,        KC_HOME,      KC_PGDN,      KC_END,       KC_NO
-#define ___________________NAV_L3__________________       ___________________ALL_NO__________________
+#define ___________________NAV_L1__________________       KC_ACL0,        KC_BTN2,   KC_MS_U,    KC_BTN1,      KC_WH_U
+#define ___________________NAV_L2__________________       KC_ACL1,        KC_MS_L,   KC_MS_D,    KC_MS_R,      KC_WH_D
+#define ___________________NAV_L3__________________       KC_ACL2,        KC_NO,     KC_NO,      KC_NO,        KC_NO
 
-#define ___________________NAV_R1__________________       KC_NO,        KC_NO,        KC_UP,        KC_NO,        KC_NO
-#define ___________________NAV_R2__________________       KC_NO,        KC_LEFT,      KC_DOWN,      KC_RIGHT,     KC_NO
+#define ___________________NAV_R1__________________       KC_INS,       KC_PGUP,      KC_UP,        KC_PGDN,      KC_DEL
+#define ___________________NAV_R2__________________       KC_HOME,      KC_LEFT,      KC_DOWN,      KC_RIGHT,     KC_END
 #define ___________________NAV_R3__________________       ___________________ALL_NO__________________
 
-#define ___________________NAV_L4__________________       _______,      KC_HANJ,      KC_NO
-#define ___________________NAV_R4__________________       KC_NO,        KC_HAEN,      _______
+//#define ___________________NAV_L4__________________       _______,      KC_HANJ,      KC_NO
+//#define ___________________NAV_R4__________________       KC_NO,        KC_HAEN,      _______
+#define ___________________NAV_L4__________________       KC_NO,        KC_HANJ,      _______
+#define ___________________NAV_R4__________________       _______,      KC_HAEN,      KC_NO
 
 
 #define _________________NUMBER_L1_________________       KC_1,         KC_2,         KC_3,         KC_4,         KC_5
