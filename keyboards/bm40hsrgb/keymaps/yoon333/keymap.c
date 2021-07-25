@@ -14,7 +14,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include QMK_KEYBOARD_H
-#include "muse.h"
 #include "yoon333.h"
 #define LAYOUT_wrapper(...) LAYOUT_planck_mit(__VA_ARGS__)
 
