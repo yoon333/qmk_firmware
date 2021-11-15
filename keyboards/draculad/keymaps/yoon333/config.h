@@ -21,6 +21,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MASTER_RIGHT
 #define TRACKBALL_RIGHT
 
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_FORCE_HOLD
+#define PERMISSIVE_HOLD
+
 #ifdef TRACKBALL_RIGHT
     #define PIMORONI_TRACKBALL_INVERT_X
     #define PIMORONI_TRACKBALL_INVERT_Y
