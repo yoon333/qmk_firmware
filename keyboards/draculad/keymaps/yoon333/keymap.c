@@ -219,7 +219,7 @@ void set_keylog(uint16_t keycode, keyrecord_t *record) {
   }
 
   // update keylog
-  snprintf(keylog_str, sizeof(keylog_str), "%dx%d, k%2d\n => %c\n",
+  snprintf(keylog_str, sizeof(keylog_str), "%dx%d,\n k%2d\n  => %c\n",
            record->event.key.row, record->event.key.col,
            keycode, name);
 }
