@@ -45,10 +45,10 @@ enum custom_layer {
 #define ___________________NAV_R2__________________       KC_HOME,      KC_LEFT,      KC_DOWN,      KC_RIGHT,     KC_END
 #define ___________________NAV_R3__________________       ___________________ALL_NO__________________
 
-//#define ___________________NAV_L4__________________       _______,      KC_HANJ,      KC_NO
-//#define ___________________NAV_R4__________________       KC_NO,        KC_HAEN,      _______
-#define ___________________NAV_L4__________________       KC_NO,        KC_HANJ,      _______
-#define ___________________NAV_R4__________________       _______,      KC_HAEN,      KC_NO
+//#define ___________________NAV_L4__________________       _______,      KR_HANJ,      KC_NO
+//#define ___________________NAV_R4__________________       KC_NO,        KR_HAEN,      _______
+#define ___________________NAV_L4__________________       KC_NO,        KR_HANJ,      _______
+#define ___________________NAV_R4__________________       _______,      KR_HAEN,      KC_NO
 
 
 #define _________________NUMBER_L1_________________       KC_1,         KC_2,         KC_3,         KC_4,         KC_5
@@ -79,6 +79,6 @@ enum custom_layer {
 #define _________________ADJUST_R2_________________       KC_NO,        RGB_TOG,      RGB_HUD,      RGB_SAD,      RGB_VAD 
 #define _________________ADJUST_R3_________________       KC_NO,        KC_NO,        KC_NO,        DF(_COLEMAK), DF(_QWERTY)
 
-#define _________________ADJUST_L4_________________       RESET,        _______,      KC_NO
-#define _________________ADJUST_R4_________________       KC_NO,        _______,      DEBUG
+#define _________________ADJUST_L4_________________       QK_BOOT,        _______,      KC_NO
+#define _________________ADJUST_R4_________________       KC_NO,        _______,     DB_TOGG
 
